@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>iCodeThis</title>
+    <link rel="stylesheet" type="text/css" href="./index.css"/>
+    <script src="editC.js"></script>
+</head>
+
+<body >
+    <div class="top">
+        <div class="topDwell">
+            <label>Type of Dwelling<label>
+                    <p id="outputParagraph"></p>
+        </div>
+        <div class="topArea">
+            <label>Living Area<label>
+                    <p>"p"</p>
+        </div>
+        <div class="topConsider">
+            <label>Considered to Sold within<label>
+                    <p></p>
+        </div>
+        <button class="pencilButton"></button>
+    </div>
+    <div class="bottom">
+        <div class="bottomHeadtext">
+            <h6>Edit</h6>
+            <p>Enter details and let other users know when you are considering selling the property</p>
+        </div>
+        <label class="dwelling">Type of Dwelling</label>
+        <select id="dwell">
+            <option>Detached</option>
+            <option>Attached</option>
+        </select>
+        <label class="area">Living Area</label>
+        <input type="number" class="area" />
+        <label class="considered">Considered to Sold within</label>
+        <select class="sold">
+            <option>1 year</option>
+            <option>2 years</option>
+        </select>
+        <button class="cancel" type="reset">Cancel</button>
+        <button class="save" type="submit" >Save</button>
+        <button class="xButton">X</button>
+    </div>
+
+</body>
+
+</html>

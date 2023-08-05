@@ -1,0 +1,77 @@
+
+html{
+    background-color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top{
+    background-color: white;
+    border:.05em solid black;
+    margin:2em 2em;
+    padding:8em 2em;
+}
+.top label{
+    display:inline-block;
+    align-items:flex-end;
+   
+}
+.pencilButton{
+    background-color: darkgreen;
+    border-radius: 4em;
+    border:.05em solid black;
+    padding:2em;
+margin-left:40em;
+
+}
+
+
+.bottom{
+    display:flexbox;
+    border:.5em solid black;
+    background-color: black;
+    justify-content: center;
+    color:white;
+    align-items: center;
+    margin-top:9em;
+    padding:3em 1em;
+
+}
+.bottomHeadtext{
+    display:block;
+    padding-bottom:1em;
+}
+.bottomHeadtext h6{
+    align-items:center;
+    justify-content:center;
+    margin-left:15em;
+}
+
+.cancel{
+    display:inline;
+    background-color: black;
+    border:.05em solid grey;
+    padding:2em 8em;
+    color:grey;
+    z-index:1;
+}
+
+
+.save{
+    display:inline;
+    background-color: lightgreen;
+    border:.05em solid black;
+    padding:2em 8em;
+    z-index:1;
+}
+
+.xButton{
+border-radius: 2em;
+border:.05em solid white;
+background-color: white;
+padding:2em;
+
+}
+.bottom button{
+    margin-top:6em;
+    margin-right:6em;
+}
