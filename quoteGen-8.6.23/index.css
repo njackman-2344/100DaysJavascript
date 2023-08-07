@@ -1,0 +1,23 @@
+html {
+    background-color: dodgerblue;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#output {
+    font-weight: 300;
+}
+
+img {
+    display: flex;
+    max-width: 10em;
+    max-height: 10em;
+    justify-content: center;
+
+}
+
+button {
+    border: .03em solid red;
+    border-radius: .5em;
+    box-shadow: .04em 0em 0em .5em red;
+}
