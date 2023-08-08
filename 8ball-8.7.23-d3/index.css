@@ -1,0 +1,9 @@
+html{
+    background-color:red;
+    font-family:'Courier New', Courier, monospace;
+    display:flexbox;
+}
+img{
+    display:flex;
+    align-items: center;
+}
