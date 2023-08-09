@@ -1,0 +1,39 @@
+html {
+    background-color: rgb(210, 90, 130);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.colors {
+    display: block;
+    box-sizing: border-box;
+}
+
+.green {
+    border: .5em solid black;
+    margin: 1em;
+    padding: 1em;
+}
+
+.blue {
+    border: .5em solid black;
+    margin: 1em;
+    padding: 1em;
+}
+
+.yellow {
+    border: .5em solid black;
+    margin: 1em;
+    padding: 1em;
+}
+
+.black {
+    border: .5em solid black;
+    margin: 1em;
+    padding: 1em;
+}
+
+#btn {
+    border: 1em ridge green;
+    padding: 3em;
+    background-color: cornflowerblue;
+}
