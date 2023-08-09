@@ -4,13 +4,18 @@ function flip() {
   const black = document.getElementsByClassName("black");
   const green = document.getElementsByClassName("green");
   const btnElement = document.getElementById("btn");
+
   yellow.addEventListener("click", () => {
-    <style background-color:yellow></style>;
+    yellow.style.backgroundColor = "yellow";
   });
   blue.addEventListener("click", () => {
-    <style background-color:blue></style>;
+    blue.style.backgroundColor = "blue";
   });
-  black.addEventListener("click", () => {});
-  green.addEventListener("click", () => {});
+  black.addEventListener("click", () => {
+    black.style.backgroundColor = "black";
+  });
+  green.addEventListener("click", () => {
+    green.style.backgroundColor = "green";
+  });
 }
-flip();
+btnElement.addEventListener("click", flip());
