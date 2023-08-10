@@ -1,0 +1,32 @@
+html{
+    background-color: rgb(247, 228, 231);
+
+}
+.square
+{
+    background-color: rgb(227, 122, 141);
+    border-radius: 1em;
+    padding:20em;
+    margin:12em 16em;
+    z-index: 0;
+    
+   
+}
+form{
+    box-sizing:border-box;
+    border:.05em solid black;
+    background-color: rgb(230,230,230);
+    padding:1em;
+    max-width:50em;
+    max-height:120em;
+    display: block;
+    z-index:auto;
+}
+table{
+    display:contents;
+    
+}
+ tr{
+    display:grid;
+    float:left;
+}

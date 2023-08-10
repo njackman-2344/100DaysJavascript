@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rating -iCodeThis</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="review.js"></script>
+</head>
+<header>
+</header>
+
+<body>
+    <div class="square"></div>
+    <form>
+        <table>
+            <div>
+                <thead>
+                    <h1>Overall rating</h1>
+                </thead>
+                <tr>
+                    <div></div>
+                </tr>
+                <tr>
+                    <p>Click to rate</p>
+                </tr>
+            </div>
+            <tr><label>Review title</label></tr>
+            <tr><input type="text" class="reviewTitle" value="Example: Easy to use" /></tr>
+            <tr><label>Would you recommend this product to a friend?</label></tr>
+
+            <tr><input type="radio" value="Yes" name="yes/no" /></tr>
+            <tr><label for="yes/no">Yes</label> <input name="yes/no" type="radio" value="No" /><label for="yes/no">No</label></tr>
+            <tr><label>Product review</label></tr>
+            <tr><input type="text" class="textReviewInput"
+                    value="Example: Since I bought this a month ago, it has been used a lot. What I like best/what is worse about this product is..." />
+            </tr>
+            <tr><label>Nickname</label> <label>Email address (will not be published)</label></tr>
+            <tr><input type="text" class="nickname" /> <input type="email" class="email" /></tr>
+            <tr><input type="radio" required /> <label>I accept the <a href="./product_review.png">terms and conditions</a></label></tr>
+            <tr>
+                <p>You will be able to recieve emails in connection with this review (eg if others comment on your
+                    review). All
+                    emails contain the option to unsubscribe. We can use the text and star rating from your review in
+                    other
+                    marketing.</p>
+            </tr>
+            <tr><button class="btnSubmit">Submit Product Review</button></tr>
+        </table>
+    </form>
+</body>
+
+</html>
